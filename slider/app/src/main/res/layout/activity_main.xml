@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_from_json"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.learn.goa.slider.MainActivity">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/slider">
+    </com.daimajia.slider.library.SliderLayout>
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+    <!--android:text="Image Slider get image from JSON" />-->
+</LinearLayout>
